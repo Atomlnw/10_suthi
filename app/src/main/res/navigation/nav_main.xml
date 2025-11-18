@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.suthi.pscmenu2.fragments.HomeFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.suthi.pscmenu2.fragments.ProductFragment"
+        android:label="หน้าสิ้นค้า"
+        tools:layout="@layout/fragment_product" />
+    <fragment
+        android:id="@+id/addproductFragment"
+        android:name="com.suthi.pscmenu2.fragments.AddproductFragment"
+        android:label="หน้าเพิ่มสิ้นค้า"
+        tools:layout="@layout/fragment_addproduct" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.suthi.pscmenu2.fragments.NotificationFragment"
+        android:label="หน้าแจ้งเตื่อน"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.suthi.pscmenu2.fragments.AccountFragment"
+        android:label="หน้าผู้ใช้"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.suthi.pscmenu2.fragments.AboutFragment"
+        android:label="หน้าเกี่ยวกับเรา"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.suthi.pscmenu2.fragments.SettingFragment"
+        android:label="หน้าตั้งค่า"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.suthi.pscmenu2.fragments.ServiceFragment"
+        android:label="หน้าบริการ"
+        tools:layout="@layout/fragment_service" />
+</navigation>
