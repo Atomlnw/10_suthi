@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/addproductFragment"
         android:name="com.suthi.pscmenu2.fragments.AddproductFragment"
-        android:label="หน้าเพิ่มสิ้นค้า"
+        android:label="หน้าลงประกาศ"
         tools:layout="@layout/fragment_addproduct" />
     <fragment
         android:id="@+id/notificationFragment"

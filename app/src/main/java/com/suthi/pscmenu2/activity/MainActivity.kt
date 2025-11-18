@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         //กำหนด appBar
         appBarConfiguration = AppBarConfiguration.Builder(
             R.id.homeFragment,
+            R.id.productFragment,
             R.id.addproductFragment,
             R.id.notificationFragment,
             R.id.accountFragment
